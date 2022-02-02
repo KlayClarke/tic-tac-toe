@@ -42,3 +42,16 @@ body {
   justify-content: center;
   font-size: 100px;
 }
+
+.tile:not(:nth-child(3n)) {
+  border-right: 2px solid black;
+}
+
+.tile:first-child,
+.tile:nth-child(2),
+.tile:nth-child(3),
+.tile:nth-child(4),
+.tile:nth-child(5),
+.tile:nth-child(6) {
+  border-bottom: 2px solid black;
+}
